@@ -1,14 +1,15 @@
 package com.navinfo
 
+import org.neuroph.util.NeuralNetworkType
+
 /**
  * Hello world!
  *
  */
-object Test {
+object Test{
 
-  def main(args: Array[String]) {
-    println("nihao")
-    println("nihao github")
+  def main(args: Array[String]): Unit = {
+    val perceptron: NeuralNetworkType = NeuralNetworkType.PERCEPTRON
   }
 
 }
